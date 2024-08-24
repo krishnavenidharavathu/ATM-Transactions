@@ -48,12 +48,12 @@ class ATM:
             return "Invalid transaction type."
 
 
-# User inputs
+
 account_number = input("Enter your account number: ")
 pin = input("Enter your PIN: ")
 initial_balance = float(input("Enter your initial balance: "))
 
-# Create an account with user-provided details
+
 account = Account(account_number, pin, initial_balance)
 atm = ATM(account)
 
